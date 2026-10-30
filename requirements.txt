@@ -1,0 +1,7 @@
+# Direct Python dependencies for ThinkCell Automation
+# Install with: python -m pip install -r requirements.txt
+
+streamlit
+openpyxl
+pywin32
+python-pptx

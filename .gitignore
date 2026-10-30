@@ -1,0 +1,65 @@
+# ThinkCell Automation - root .gitignore
+
+# Local Python / virtual-environment files inside .thinkcell
+.thinkcell/Lib/
+.thinkcell/Scripts/
+.thinkcell/etc/
+.thinkcell/share/
+.thinkcell/pyvenv.cfg
+
+# Other common virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / compiled files - applies recursively
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets / environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / editor local settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Runtime / temporary folders
+temp/
+tmp/
+_workflow_temp/
+**/_workflow_temp/
+**/output/
+**/outputs/
+
+# Python packaging / build artifacts
+build/
+dist/
+*.egg-info/
+
+# Microsoft Office temporary / lock files
+~$*
+*.tmp
+
+# Streamlit local machine secrets
+.streamlit/secrets.toml
